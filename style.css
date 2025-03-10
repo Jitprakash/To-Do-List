@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Liter&family=Rubik+Wet+Paint&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("./asset/BackGround-Image.png");
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* display: flex; */
+    overflow: hidden;
+}
+
+.heading {
+    width: 100%;
+    height: 20vmin;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: red; */
+}
+
+.heading h1 {
+    border: 1px solid gray;
+    border-radius: 55px;
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.2);
+    width: fit-content;
+    height: fit-content;
+    color: #864B49;
+    font-size: 40px;
+    font-family: "Baloo 2", sans-serif;
+    padding: 3px 50px;
+}
+
+.addSection {
+    margin: auto;
+    min-width: 70%;
+    height: 20vmin;
+    display: flex;
+    gap: 80px;
+    /* background-color: red; */
+    align-items: center;
+    justify-content: center;
+}
+
+.addSection input {
+    width: 55vmin;
+    height: 5vmin;
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 1px solid gray;
+    border-radius: 10px;
+    color: #864B49;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    caret-color: #864B49;
+    outline: none;
+}
+
+.addSection img {
+    height: 8vmin;
+    border: 1px solid #fff;
+    border-radius: 80px;
+}
+
+.drop {
+    /* width: 17vmin; */
+    /* height: 6vmin; */
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 5px 15px;
+}
+
+.addSection #dropdown {
+    min-width: 15vmin;
+    height: 6vmin;
+    border: none;
+    background: transparent;
+    outline: none;
+    color: #fff;
+    font-family: "Baloo 2", sans-serif;
+    font-size: 20px;
+    position: relative;
+}
+
+#dropdown option {
+    width: 17vmin;
+    background-color: blue;
+    color: #fff;
+    font-family: "Baloo 2", sans-serif;
+    font-size: 20px;
+    border: none;
+    padding: 5px;
+}
+
+.to-do-list-container {
+    /* background-color: red; */
+    list-style: none;
+    margin: auto;
+    min-width: 70%;
+    height: 55vmin;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 30px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 10px 0px;
+}
+
+.to-do {
+    min-width: 70vmin;
+    min-height: 8vmin;
+    border: 1px solid gray;
+    border-radius: 55px;
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 10px 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.user-text {
+    color: #fff;
+    font-family: "Baloo 2", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.checked {
+    text-decoration: line-through;
+    color: black;
+}
+
+.buttons {
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+}
+
+.hide {
+    display: none;
+}
